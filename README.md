@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Recipe App
+> This is (for now) a small React Application for displaying and organizing your own recipes.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## General Information
+- I undertook this project to gain experience in creating a full-stack application on my own and help my mother
+- My mother is used to get her recipes from a few different sources (pinterest, screenshots, handwritten, google drive). The app should function as the only place to display all these recipes from different sources
+- The foundation is a HTML / CSS page from [Coding Addict](https://www.youtube.com/c/CodingAddict) which I tweaked to my liking, converted it into a React application and added the features for searching, filtering etc.
+- The app is for private use which is why this version includes only sample data in order to not infringe any copyrights in terms of the used recipes
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
+- React 17.0.2
+- React Router 5.3.0
+- Font Awesome 5.15.4
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Features
+- Displaying recipes
+- Filtering recipes by certain tags / categories
+- Searching for recipes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
+![Example screenshot](https://i.ibb.co/sbmVkhP/recipes-screenshot.jpg)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Demo
+Live demo [_here_](https://vigilant-swartz-cc44b8.netlify.app/).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Setup
+The dependencies which are necessary to run this app can be found in the package.json file.
 
-## Learn More
+1. Clone the repo
+2. Navigate to the project folder in the terminal and install the necessary NPM dependencies
+```
+npm install
+```
+3. Run the app typing
+```
+npm start
+```
+in your terminal and visit localhost:3000 in your browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Learnings
+- How to work with normalize.css in a React app
+- Using a scroll-to-top component in order to scroll automatically on top when visiting other pages / routes
+- How to implement continuous deployment with Netlify / GitHub
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Project Status
+The is the basic version of the App which is just a static React application. The plan is to built this into an interactive full-stack-app
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## To do
+- Build my own API to provide the recipes
+- Manage the recipes in a database
+- Create my own design
+- Dynamically calculate the amount of certain ingredients based on for how many persons the recipe is intended
+- Adding / Removing / Updating recipes
+- Adding dates to recipes to mark when the recipe was last used
+- Adding a filter to display recipes which weren't used for the longest time
+- Adding authentication
+- Dynamically create a shopping list based on the chosen recipe
+- Conversion to a React-Native app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Acknowledgements
+- This project is partly based on a tutorial from [John Smilga](https://www.youtube.com/watch?v=-8LTPIJBGwQ&t=6s).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
