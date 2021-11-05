@@ -72,6 +72,7 @@ The is the basic version of the App which is just a static React application. Th
 - Adding a filter to display recipes which weren't used for the longest time
 - Adding authentication
 - Dynamically create a shopping list based on the chosen recipe
+- Testing
 - Conversion to a React-Native app
 
 
